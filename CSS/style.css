@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;800;900&display=swap');
 
 :root {
     --primary: #d7ba7e;
+    --hover: #DABF86;
     --secondary: #E43C2C;
     --white: #fff;
+    --grey: #707070;
     --light-grey: #f5f5f5;
     --black: #000;
     --box-shadow: 20px 0 60px rgb(14 27 56 / 15%);
@@ -20,7 +22,7 @@ html {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1;
 }
 
 
@@ -34,6 +36,7 @@ html {
     margin: unset;
     justify-content: space-around;
     align-items: center;
+    max-width: 1600px;
 }
 
 #header .row .nav {
@@ -60,12 +63,30 @@ html {
 
 
 /* TEXT */
+.small-headline {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--secondary);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.disclaimer {
+    color: var(--grey);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+}
+
 h1 {
-    font-weight: 800;
-    font-size: 42px;
-    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 52px;
+    color: var(--black);
     line-height: 1.2;
     margin-bottom: 16px;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 h2 {
@@ -84,6 +105,14 @@ h4 {
     font-weight: 800;
     font-size: 22px;
     margin-bottom: 16px;
+}
+
+p {
+    text-align: center;
+}
+
+p.large {
+    font-size: 30px;
 }
 
 p,
@@ -124,21 +153,23 @@ ul li:before {
 
 /* BUTTONS */
 .primary-btn {
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 30px;
     text-decoration: none;
     width: fit-content;
     background-color: var(--primary);
     color: var(--white);
     border: 1px solid var(--primary);
     border-radius: 9px;
-    padding: 10px 15px;
+    padding: 20px 50px;
     transition: var(--transition);
+    margin: 20px auto;
 }
 
 .primary-btn:hover {
     color: var(--white);
-    background-color: var(--secondary);
-    border: 1px solid var(--secondary);
+    background-color: var(--hover);
+    border: 1px solid var(--hover);
     transition: var(--transition);
     transform: scale(1.05);
     cursor: pointer;
@@ -157,7 +188,7 @@ ul li:before {
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
     display: flex;
     flex-direction: row;
     margin: 60px auto;
@@ -248,7 +279,7 @@ ul li:before {
         font-size: 24px;
     }
 
-    .row {
-        max-width: 1600px;
-    }
+    /* .row {
+        max-width: 960px;
+    } */
 }
