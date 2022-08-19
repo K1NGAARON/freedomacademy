@@ -237,6 +237,7 @@ ul li:before {
     background-color: var(--white);
     padding: 30px;
     border-radius: 12px;
+    border-bottom: 3px solid #dfdfdf;
 }
 
 .icp .icp-item p {
