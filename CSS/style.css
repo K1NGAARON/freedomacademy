@@ -235,7 +235,7 @@ ul li:before {
 .icp .icp-item {
     width: calc(50% - 20px);
     background-color: var(--white);
-    padding: 20px;
+    padding: 30px;
     border-radius: 12px;
 }
 
