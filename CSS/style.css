@@ -282,6 +282,14 @@ ul li:before {
     margin-bottom: unset;
 }
 
+img.team {
+    max-width: 900px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 6px;
+    border: 3px solid var(--black);
+}
+
 @media all and (max-width: 540px) {
     .row {
         flex-direction: column;
