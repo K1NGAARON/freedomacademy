@@ -1,0 +1,14 @@
+.section .row p,
+.section h1,
+.section h2,
+.section h3 {
+    text-align: left;
+}
+
+.section .row {
+    align-items: flex-start;
+}
+
+.section p {
+    font-size: 16px;
+}
