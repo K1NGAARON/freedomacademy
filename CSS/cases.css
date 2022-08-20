@@ -1,0 +1,55 @@
+#cases .row .cases-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#cases .row .cases-wrapper .cases-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc((100% / 3) - 30px);
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+    transition: var(--transition);
+}
+
+#cases .row .cases-wrapper .cases-item:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 15%);
+    transition: var(--transition);
+}
+
+#cases .row .cases-wrapper .cases-item img {
+    width: 100%;
+}
+
+#cases .row .cases-wrapper .cases-item h5,
+#cases .row .cases-wrapper .cases-item p,
+#cases .row .cases-wrapper .cases-item a {
+    padding: 0 40px;
+    text-align: left;
+}
+
+#cases .row .cases-wrapper .cases-item h5 {
+    padding-top: 40px;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#cases .row .cases-wrapper .cases-item p {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#cases .row .cases-wrapper .cases-item a {
+    padding-bottom: 40px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#cta {
+    background-color: var(--light-grey);
+}
