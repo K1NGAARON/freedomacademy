@@ -358,6 +358,58 @@ img.team {
     font-size: 16px;
 }
 
+#group {
+    background-color: var(--black);
+}
+
+#group .row {
+    align-items: flex-start;
+}
+
+#group .row h3 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+#group .row p.large {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+#group .row p.opacity {
+    opacity: 0.6;
+}
+
+#group .row p {
+    color: var(--white);
+    text-align: left;
+}
+
+#group .row .white-btn {
+    color: var(--black);
+    background-color: var(--white);
+    font-size: 18px;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+
+#final-cta .row h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#final-cta .row .primary-btn {
+    background-color: var(--black);
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+#final-cta .row .primary-btn:hover {
+    background-color: var(--primary);
+}
+
 
 @media all and (max-width: 540px) {
     .row {
