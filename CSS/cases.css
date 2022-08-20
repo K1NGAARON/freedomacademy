@@ -53,3 +53,73 @@
 #cta {
     background-color: var(--light-grey);
 }
+
+
+/* CASE STUDY POST */
+#case-body .row {
+    max-width: 1300px;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+#case-body .row .col {
+    margin: 0;
+}
+
+#case-body .row .col:nth-child(1) {
+    width: 60%;
+}
+#case-body .row .col:nth-child(2) {
+    width: 40%;
+}
+
+#case-body .row h1 {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 60px;
+}
+
+#case-body .row h2 {
+    font-size: 25px;
+    color: var(--primary);
+    text-align: left;
+    margin-top: 40px;
+}
+
+#case-body .row p {
+    font-size: 16px;
+    text-align: left;
+}
+
+#case-body .row .primary-btn {
+    margin-left: 0;
+}
+
+#case-body .row #sticky-cta {
+    background-color: var(--white);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+
+    position: static;
+}
+
+#case-body .row #sticky-cta h5,
+#case-body .row #sticky-cta p {
+    text-align: center;
+}
+
+#case-body .row #sticky-cta h5 {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#case-body .row #sticky-cta .primary-btn {
+    margin: 0 auto;
+}
