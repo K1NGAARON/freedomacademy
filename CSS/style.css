@@ -320,6 +320,44 @@ img.team {
     font-size: 16px;
 }
 
+#steps {
+    background-color: var(--light-grey);
+}
+
+.steps-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.steps-wrapper .steps-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    background-color: var(--white);
+    padding: 30px 60px;
+    border-radius: 12px;
+    border-bottom: 3px solid #dfdfdf;
+}
+
+.steps-wrapper .steps-item i {
+    font-size: 60px;
+    color: var(--primary);
+    text-align: center;
+}
+
+.steps-wrapper .steps-item h5 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.steps-wrapper .steps-item p {
+    text-align: center;
+    font-size: 16px;
+}
+
 
 @media all and (max-width: 540px) {
     .row {
