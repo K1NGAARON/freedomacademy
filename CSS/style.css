@@ -78,6 +78,11 @@ html {
     font-weight: 900;
 }
 
+.left-24 {
+    text-align: left;
+    font-size: 24px;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -510,6 +515,83 @@ img.team {
     img:not(#header-logo) {
         max-width: 100%;
         margin: 40px auto;
+    }
+
+    #header .row .nav {
+        display: none;
+    }
+
+    #icp .icp {
+        flex-direction: column;
+    }
+
+    #icp .icp .icp-item {
+        width: 100%;
+    }
+
+    .cta-section {
+        border-radius: 0;
+    }
+
+    .usp-section {
+        flex-direction: column;
+    }
+
+    .steps-wrapper {
+        flex-direction: column;
+    }
+
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    p.large {
+        font-size: 20px;
+    }
+
+    #group .row h3 {
+        font-size: 30px;
+    }
+
+    .primary-btn {
+        font-size: 16px;
+        padding: 20px 40px;
+    }
+
+    p.disclaimer {
+        margin-top: 10px;
+    }
+
+    .left-24 {
+        font-size: 14px;
+    }
+
+    #group .row .col {
+        margin: unset;
+        padding: 0 30px;
+    }
+
+    #final-cta .row h2 {
+        font-size: 20px;
+    }
+
+    #footer .row .description {
+        max-width: 100%;
+    }
+
+    #header .logo,
+    #footer .logo {
+        max-width: 150px;
+        margin: 0;
     }
 }
 
