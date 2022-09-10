@@ -16,7 +16,28 @@ h2 span {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+}
 
+h2 .color-primary {
+    text-transform: uppercase;
+}
+
+.primary-btn {
+    font-size: 20px;
+}
+
+.primary-btn.blue {
+    background-color: #4267b2;
+    border: 1px solid #4267b2;
+    margin-left: 0;
+}
+
+.section .row.left-text p {
+    text-align: left;
+}
 
 #important {
     background-color: #545454;
