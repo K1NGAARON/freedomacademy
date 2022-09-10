@@ -1,0 +1,7 @@
+#first {
+    background-image: linear-gradient(#545454 50%, #ffffff 0%);
+}
+
+#first h1 {
+    color: var(--white);
+}
