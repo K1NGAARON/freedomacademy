@@ -1,5 +1,6 @@
 #first {
     background-image: linear-gradient(#545454 50%, #ffffff 0%);
+    height: 100vh;
 }
 
 #first h1 {
