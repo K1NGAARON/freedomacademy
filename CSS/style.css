@@ -200,6 +200,7 @@ ul li:before {
     margin: 60px auto;
     align-items: center;
     justify-content: center;
+    padding: 0 30px;
 }
 
 .row.row-reverse {
@@ -821,6 +822,35 @@ h2.black-bg {
     }
 }
 
+
+@media (max-width: 700px) {
+    #how .steps-wrapper {
+        flex-direction: column;
+    }
+
+    #how .steps-wrapper .steps-item {
+        width: 100%;
+    }
+
+    #cases .cases-wrapper {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    #cases .cases-wrapper .cases-item {
+        width: 100%;
+    }
+
+    #cta h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    /* Hide desktop menu */
+    /* Show mobile menu */
+}
 
 /* @media all and (min-width: 1600px) {
     p,
