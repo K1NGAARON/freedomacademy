@@ -59,3 +59,13 @@ h2 .color-primary {
 #important p {
     color: var(--white);
 }
+
+@media (max-width: 910px) {
+    .row:not(#header .row) {
+        flex-direction: column;
+    }
+    
+    .row .col {
+        width: 100%;
+    }
+}
