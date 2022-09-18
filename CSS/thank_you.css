@@ -60,6 +60,50 @@ h2 .color-primary {
     color: var(--white);
 }
 
+.sharing-Wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: var(--light-grey);
+}
+
+.sharing-Wrapper .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sharing-Wrapper .link-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 12px;
+
+    background-color: #181818;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.sharing-Wrapper .link-wrapper #copyURL {
+    text-transform: uppercase;
+    transition: var(--transition);
+}
+
+.sharing-Wrapper .link-wrapper #copyURL:hover {
+    transform: scale(1.05);
+    transition: var(--transition);
+}
+
+
+
 @media (max-width: 910px) {
     .row:not(#header .row) {
         flex-direction: column;
