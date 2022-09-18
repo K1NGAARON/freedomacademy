@@ -199,15 +199,17 @@ ul li:before {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
+    transition: var(--transition);
 }
   
 #scrollTop:hover {
-    background-color: #555;
+    background-color: var(--primary);
+    transition: var(--transition);
 }
 
 
