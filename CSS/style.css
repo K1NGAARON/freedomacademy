@@ -458,6 +458,7 @@ img.team {
 #homePage .black {
     color: var(--black);
     margin-top: 20px;
+    font-size: 16px;
 }
 
 #homePage .primary-btn .small {
