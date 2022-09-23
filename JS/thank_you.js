@@ -1,10 +1,13 @@
-function copyURL() {
-    // Get the text field
-    var copyText = "https://freedomacademy.com";
-    navigator.clipboard.writeText(copyText);
+function copyToClipboard() {
+    var copyText = 'https://freedomacademy.be'
+    navigator.clipboard.writeText(copyText).then(() => {
+        // Alert the user that the action took place.
+        // Nobody likes hidden stuff being done under the hood!
+        console.log(copyText)
+        alert("Copied to clipboard");
+    });
+  }
 
-    alert('The URL has been copied.')
-}
-
-
-$('#copyURL').click(copyURL);
+$('#copyURL').click(function(){
+    copyToClipboard();
+});
