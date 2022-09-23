@@ -482,7 +482,8 @@ img.team {
 #homePage .black {
     color: var(--black);
     margin-top: 20px;
-    font-size: 16px;
+    margin-bottom: 20px;
+    font-size: 22px;
 }
 
 #homePage .primary-btn .small {
@@ -849,8 +850,12 @@ h2.black-bg {
     }
 
     .primary-btn {
-        font-size: 16px;
-        padding: 20px 40px;
+        font-size: 20px;
+        padding: 20px 30px;
+    }
+
+    #homePage .primary-btn .small {
+        font-size: 14px;
     }
 
     p.disclaimer {
