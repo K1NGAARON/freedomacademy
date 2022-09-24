@@ -570,7 +570,7 @@ h2.black-bg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    width: 45%;
     background-color: var(--white);
     padding: 40px;
     border-radius: 12px;
