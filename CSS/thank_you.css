@@ -102,6 +102,10 @@ h2 .color-primary {
     transition: var(--transition);
 }
 
+.sharing-Wrapper .wp {
+    max-width: 30px;
+    height: auto;
+}
 
 
 @media (max-width: 910px) {
