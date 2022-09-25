@@ -4,7 +4,7 @@ function copyToClipboard() {
         // Alert the user that the action took place.
         // Nobody likes hidden stuff being done under the hood!
         console.log(copyText)
-        alert("Copied to clipboard");
+        alert(`${copyText} has been copied to your clipboard`);
     });
   }
 
