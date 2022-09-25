@@ -8,15 +8,15 @@
 
 @media (max-width: 700px) {
     #homePage p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #homePage h1 {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     #homePage .black {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     #what p {
@@ -24,12 +24,12 @@
     }
 
     #how p:nth-of-type(1) {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 5px;
     }
 
     #how h2 {
-        font-size: 40px;
+        font-size: 34px;
     }
 
     #cases .cases-wrapper .cases-item h4 {
