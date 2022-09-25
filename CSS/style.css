@@ -526,13 +526,17 @@ h2.black-bg {
     flex-direction: column;
     gap: 20px;
     width: 33%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: var(--white);
     color: var(--black);
-    padding: 30px;
+    padding: 25px;
     border-radius: 12px;
     border-bottom: 3px solid #dfdfdf;
+}
+
+.steps-wrapper .steps-item a {
+    margin-top: auto;
 }
 
 .grey .row .steps-wrapper .steps-item h3, 
@@ -579,6 +583,10 @@ h2.black-bg {
 #cases .cases-wrapper .cases-item h4,
 #cases .cases-wrapper .cases-item p {
     color: var(--black);
+}
+
+#cases .cases-wrapper .cases-item .body {
+    font-size: 16px;
 }
 
 #cases .cases-wrapper .cases-item h4 {
