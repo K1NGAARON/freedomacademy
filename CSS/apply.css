@@ -10,5 +10,10 @@
 @media (max-width: 700px) {
     #first .logo {
         display: none;
-    }   
+    }
+    
+    #first {
+        background-image: none;
+        background-color: #545454;
+    }
 }
