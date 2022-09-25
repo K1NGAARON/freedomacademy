@@ -220,6 +220,7 @@ ul li:before {
     font-size: 30px;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     width: fit-content;
     background-color: var(--primary);
     color: var(--white);
@@ -488,6 +489,7 @@ img.team {
 
 #homePage .primary-btn .small {
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 h2.capitalize {
