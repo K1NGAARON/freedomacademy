@@ -550,6 +550,7 @@ h2.black-bg {
 .grey .row .steps-wrapper .steps-item .step {
     background-color: #545454;
     color: var(--white);
+    font-weight: 700;
     width: fit-content;
     padding: 8px 24px;
     border-radius: 12px;
