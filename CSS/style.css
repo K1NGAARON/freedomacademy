@@ -918,11 +918,6 @@ h2.black-bg {
     #cases .cases-wrapper .cases-item {
         width: 100%;
     }
-
-    #cta h2 {
-        text-align: center;
-        font-size: 30px;
-    }
 }
 
 @media (max-width: 750px) {
