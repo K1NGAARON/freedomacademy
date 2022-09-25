@@ -18,7 +18,7 @@ h2 span {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 32px;
     text-transform: capitalize;
 }
 
@@ -121,6 +121,39 @@ h2 .color-primary {
     height: auto;
 }
 
+.primary-btn .fa-download {
+    margin-right: 10px;
+}
+
+.section .row {
+    margin: 0 auto;
+}
+
+#stepOne .row:nth-child(1) {
+    margin-top: 100px;
+}
+
+
+@media (max-width: 700px) {
+    .row .primary-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .section h2 {
+        text-align: left;
+    }
+
+    .sharing-Wrapper .socials {
+        margin-top: 0;
+        gap: 10px;
+    }
+
+    .socials .wp {
+        max-width: 30px!important;
+        height: auto;
+    }
+}
 
 @media (max-width: 910px) {
     .row:not(#header .row) {
@@ -129,5 +162,11 @@ h2 .color-primary {
     
     .row .col {
         width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .section .row:nth-child(even) {
+        flex-direction: column-reverse!important;
     }
 }
