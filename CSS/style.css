@@ -115,6 +115,7 @@ html {
     max-width: none;
     background-color: var(--primary);
     border: 3px solid var(--primary);
+    z-index: 10;
 }
 
 
