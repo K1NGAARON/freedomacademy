@@ -95,6 +95,11 @@ html {
     margin: 5px 0;
 }
 
+#wistia_chrome_23 {
+    border-radius: 12px;
+    box-shadow: 10px 0 60px rgb(14 27 56 / 30%);
+}
+
 
 /* TEXT */
 .small-headline {
