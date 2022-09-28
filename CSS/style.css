@@ -95,9 +95,26 @@ html {
     margin: 5px 0;
 }
 
+/* WISTIA EMBED */
+#videoWrapper {
+    width: 100%;
+}
+
 #wistia_chrome_23 {
     border-radius: 12px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
     box-shadow: 10px 0 60px rgb(14 27 56 / 30%);
+}
+
+#homePage .above-video {
+    text-transform: capitalize;
+    margin: unset;
+    padding: 10px;
+    width: 100%;
+    max-width: none;
+    background-color: var(--primary);
+    border: 3px solid var(--primary);
 }
 
 
