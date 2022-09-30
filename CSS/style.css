@@ -52,6 +52,10 @@ html {
     transition: var(--transition);
 }
 
+#header .row .primary-btn {
+    padding: 10px 30px;
+}
+
 #header .row a:hover {
     color: var(--primary);
     transition: var(--transition);
@@ -70,7 +74,7 @@ html {
 }
 
 #small-nav .logo {
-    width: 150px;
+    width: 120px;
     height: auto;
     margin: 0;
 }
@@ -208,7 +212,7 @@ ul li:before {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
 }
 
