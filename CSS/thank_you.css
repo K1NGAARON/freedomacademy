@@ -72,6 +72,7 @@ h2 .color-primary {
     font-size: 40px;
     font-weight: 700;
     margin: 0;
+    max-width: none;
 }
 
 #important p {
@@ -178,14 +179,34 @@ h2 .color-primary {
     }
 
     .sharing-Wrapper .socials {
-        margin-top: 0;
+        margin-top: 10px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .sharing-Wrapper .link-wrapper {
         gap: 10px;
+        flex-wrap: wrap;
     }
 
     .socials .wp {
         max-width: 30px!important;
         height: auto;
     }
+
+    #important p, #important span {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .primary-btn {
+        font-size: 14px;
+    }
+
+
 }
 
 @media (max-width: 800px) {
