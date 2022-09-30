@@ -8,6 +8,10 @@
     color: var(--white);
 }
 
+#first .row {
+    padding: 40px 0;
+}
+
 .section .color-primary {
     color: var(--primary);
 }
