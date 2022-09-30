@@ -12,6 +12,27 @@
     font-size: 16px;
 }
 
+#videoWrapper {
+    width: 80%;
+}
+
+#homePage .above-video {
+    width: 80%;
+}
+
+#homePage .top-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#homePage h1 {
+    font-size: 46px;
+}
+
+#homePage .row:nth-child(1) {
+    margin-top: 30px;
+}
+
 @media (max-width: 700px) {
     #homePage p {
         font-size: 16px;
