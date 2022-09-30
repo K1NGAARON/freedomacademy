@@ -1,6 +1,5 @@
 #first {
-    /* background-image: linear-gradient(#545454 50%, #ffffff 0%); */
-    background-color: #545454;
+    background-image: linear-gradient(#545454 50%, #ffffff 0%);
 }
 
 #first p,
@@ -58,7 +57,7 @@ h2 .color-primary {
 }
 
 #important {
-    background-color: #545454;
+    background-color: var(--light-grey);
 }
 
 #important .row {
@@ -76,7 +75,7 @@ h2 .color-primary {
 }
 
 #important p {
-    color: var(--white);
+    color: var(--black);
 }
 
 .sharing-Wrapper {
