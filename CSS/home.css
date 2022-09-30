@@ -8,15 +8,24 @@
 
 @media (max-width: 700px) {
     #homePage p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #homePage h1 {
-        font-size: 26px;
+        font-size: 20px;
+    }
+
+    #homePage .above-video {
+        font-size: 14px;
     }
 
     #homePage .black {
-        font-size: 16px;
+        font-size: 14px;
+        margin: 20px auto;
+    }
+
+    #homePage .primary-btn {
+        font-size: 14px;
     }
 
     #what p {
