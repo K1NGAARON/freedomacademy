@@ -1,5 +1,5 @@
 function copyToClipboard() {
-    var copyText = "https://freedomacademy.be/thank-you"
+    var copyText = "https://freedomacademy.be/"
 
     navigator.clipboard.writeText(copyText).then(() => {
         // Alert the user that the action took place.
