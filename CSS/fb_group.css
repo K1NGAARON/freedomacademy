@@ -1,0 +1,32 @@
+#first {
+    height: 70vh;
+}
+
+#first .row {
+    max-width: 1400px;
+}
+
+#first h1 {
+    font-size: 42px;
+    text-align: left;
+}
+
+#first .large {
+    font-size: 26px;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#first .primary-btn {
+    font-size: 20px;
+    margin-left: 0;
+}
+
+#first .row {
+    flex-wrap: wrap;
+}
+
+#first .row .col {
+    flex: 1 0 400px;
+}
