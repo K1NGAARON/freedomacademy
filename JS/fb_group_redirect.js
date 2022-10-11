@@ -4,6 +4,6 @@ function redirectPage() {
     window.location = fbGroup;
 }
 
-// window.addEventListener('DOMContentLoaded', function() {
-//     setTimeout(redirectPage, 2000);
-// })
+window.addEventListener('DOMContentLoaded', function() {
+    setTimeout(redirectPage, 2000);
+})
