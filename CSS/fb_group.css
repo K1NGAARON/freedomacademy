@@ -7,12 +7,12 @@
 }
 
 #first h1 {
-    font-size: 42px;
+    font-size: 32px;
     text-align: left;
 }
 
 #first .large {
-    font-size: 26px;
+    font-size: 22px;
     text-align: left;
     font-weight: 700;
     margin-bottom: 20px;
@@ -29,6 +29,10 @@
 
 #first .row .col {
     flex: 1 0 400px;
+}
+
+#first ul li {
+    margin: 10px 0;
 }
 
 #loading {
