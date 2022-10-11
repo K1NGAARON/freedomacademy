@@ -74,6 +74,12 @@
     100% { transform: rotate(360deg); }
 }
 
+@media (max-width: 768px) {
+    #first .row .col {
+        width: 100%;
+    }
+}
+
 @media (max-width: 1000px) {
     #first {
         height: unset;
