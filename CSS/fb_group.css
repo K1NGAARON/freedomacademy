@@ -11,6 +11,11 @@
     text-align: left;
 }
 
+#first img {
+    width: 100%;
+    height: auto;
+}
+
 #first .large {
     font-size: 22px;
     text-align: left;
@@ -57,4 +62,10 @@
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 1000px) {
+    #first {
+        height: unset;
+    }
 }
