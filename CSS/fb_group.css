@@ -17,10 +17,11 @@
 }
 
 #first .large {
-    font-size: 22px;
+    font-size: 24px;
     text-align: left;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 #first .primary-btn {
@@ -38,6 +39,10 @@
 
 #first ul li {
     margin: 10px 0;
+}
+
+#first ul li:before {
+    color: var(--primary);
 }
 
 #loading {
