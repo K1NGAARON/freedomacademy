@@ -37,6 +37,14 @@
     flex: 1 0 400px;
 }
 
+#first .row .col:nth-child(1) {
+    padding: 0 60px;
+}
+
+#first .row .col:nth-child(2) {
+    padding: 0;
+}
+
 #first ul li {
     margin: 10px 0;
 }
@@ -72,5 +80,13 @@
 @media (max-width: 1000px) {
     #first {
         height: unset;
+    }
+
+    #first .row .col:nth-child(1) {
+        padding: 0 30px;
+    }
+
+    #first .row .col:nth-child(2) {
+        padding: 0 30px;
     }
 }
