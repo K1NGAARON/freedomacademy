@@ -1,0 +1,13 @@
+#homePage {
+    background: none!important;
+    background-color: none!important;
+    height: fit-content;
+}
+
+#homePage .row:nth-child(1) {
+    align-items: center;
+}
+
+#homePage h1 {
+    color: var(--black)!important;
+}
