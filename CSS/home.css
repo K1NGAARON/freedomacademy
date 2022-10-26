@@ -183,4 +183,13 @@
     #homePage .form-wrapper ._form-content #_form_1_submit {
         font-size: 14px;
     }
+
+    #homePage .form-wrapper ._form-content {
+        flex-direction: column;
+    }
+
+    #homePage .form-wrapper ._form-content ._form_element,
+    #homePage .form-wrapper ._form-content ._button-wrapper {
+        width: 100%;
+    }
 }
