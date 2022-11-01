@@ -213,9 +213,16 @@
     justify-content: center;
 }
 
+#review .wrapper .item .icon {
+    color: var(--primary);
+    font-size: 40px;
+}
+
 #review .wrapper .item img {
     width: 100%;
     height: auto;
+    border-bottom-left-radius: 26px;
+    border-top-left-radius: 26px;
 }
 
 #review .wrapper .item:nth-child(2) {
