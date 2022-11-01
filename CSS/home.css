@@ -402,6 +402,10 @@
     #mission .wrapper .item {
         flex: 1 0 100%;
     }
+    
+    #faq .row p {
+        text-align: left;
+    }
 }
 
 @media (max-width: 1000px) {
