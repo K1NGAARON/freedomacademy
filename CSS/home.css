@@ -135,7 +135,7 @@
 
 #about .wrapper .item:nth-child(1) {
     background-color: var(--dark);
-    padding: 60px;
+    padding: 30px;
     border-radius: 26px;
 }
 
