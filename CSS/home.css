@@ -262,7 +262,7 @@
 }
 
 #faq .accordion-list .accordion-item {
-    background-color: #ffffff99;
+    background-color: var(--white);
 }
 
 #faq .accordion-list .accordion-item .accordion-head h5 {
@@ -270,7 +270,11 @@
 }
 
 #faq .accordion-list .accordion-item .accordion-head .icon {
-    background-color: hsla(0, 0%, 100%, 0.4);
+    background-color: var(--dark);
+}
+
+#faq .accordion-list .accordion-item .accordion-body p {
+    color: var(--dark);
 }
 
 #cta .wrapper {
