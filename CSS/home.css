@@ -126,6 +126,14 @@
     width: 40%;
 }
 
+#about .row {
+    gap: 30px;
+}
+
+#about .row .col {
+    padding: 0;
+}
+
 #about .row .wrapper {
     background-color: var(--dark);
     padding: 60px;
