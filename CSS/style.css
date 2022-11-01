@@ -846,10 +846,6 @@ h2.black-bg {
         margin: 40px auto;
     }
 
-    #header .row .nav {
-        display: none;
-    }
-
     #icp .icp {
         flex-direction: column;
     }
@@ -948,7 +944,7 @@ h2.black-bg {
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
     #header {
         display: none;
     }
@@ -961,28 +957,3 @@ h2.black-bg {
         background-color: var(--black);
     }
 }
-
-@media (max-width: 1000px) {
-    /* Hide desktop menu */
-    /* Show mobile menu */
-}
-
-/* @media all and (min-width: 1600px) {
-    p,
-    a,
-    ul {
-        font-size: 16px;
-    }
-
-    h2 {
-        font-size: 36px;
-    }
-
-    h3 {
-        font-size: 24px;
-    }
-
-    .row {
-        max-width: 960px;
-    }
-} */

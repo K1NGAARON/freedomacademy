@@ -223,7 +223,7 @@
 }
 
 #mission .wrapper .item {
-    flex: 1 0 200px;
+    flex: 1 0 350px;
 
     display: flex;
     flex-direction: column;
@@ -389,5 +389,23 @@
     .form-wrapper ._form-content ._form_element,
     .form-wrapper ._form-content ._button-wrapper {
         width: 100%;
+    }
+
+    #mission .wrapper .item img {
+        border-radius: 26px;
+    }
+
+    #mission .wrapper .item:nth-child(2) {
+        border-radius: 26px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #mission .wrapper .item .icon {
+        font-size: 40px;
+    }
+
+    #mission .wrapper .quote {
+        font-size: 18px;
     }
 }
