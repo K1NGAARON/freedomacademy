@@ -270,7 +270,7 @@
 }
 
 #faq .accordion-list .accordion-item .accordion-head .icon {
-    background-color: var(--dark);
+    background-color: var(--primary);
 }
 
 #faq .accordion-list .accordion-item .accordion-body p {
