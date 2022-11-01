@@ -398,6 +398,10 @@
     #mission .wrapper .item:nth-child(2) {
         border-radius: 26px;
     }
+
+    #mission .wrapper .item {
+        flex: 1 0 100%;
+    }
 }
 
 @media (max-width: 1000px) {
