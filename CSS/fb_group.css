@@ -38,6 +38,12 @@
 
 #usp .underline {
     color: var(--primary);
+    text-decoration: none;
+}
+
+.section .bold {
+    font-weight: 700;
+    color: var(--primary);
 }
 
 #fb .mockup {
@@ -94,6 +100,34 @@
     font-size: 28px;
 }
 
+#footer .row.flex-col {
+    padding: 30px;
+    justify-content: center;
+}
+
+#footer img {
+    max-width: 150px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#footer .row.flex-col p {
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.4;
+    margin: 0 auto;
+}
+
+#footer .row.flex-col .legal {
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+    opacity: 0.4;
+}
+
+#footer .row.flex-col .legal a {
+    font-weight: 400;
+}
 
 /* LOADER */
 #loading {
