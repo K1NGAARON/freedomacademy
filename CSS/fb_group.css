@@ -165,6 +165,10 @@
         height: unset;
     }
 
+    #fb h1 {
+        max-width: none;
+    }
+
     #fb {
         height: unset;
         position: unset;
