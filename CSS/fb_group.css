@@ -11,6 +11,10 @@
     position: relative;
 }
 
+.section .primary-btn {
+    animation: glowing 1300ms infinite;
+}
+
 #fb h1 {
     color: var(--white);
     max-width: 80%;
@@ -150,8 +154,27 @@
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
+
+@keyframes glowing {
+    0% {
+      background-color: var(--primary);
+      box-shadow: 0 0 3px var(--hover);
+    }
+    50% {
+      background-color: var(--primary);
+      box-shadow: 0 0 10px var(--hover);
+    }
+    100% {
+      background-color: var(--primary);
+      box-shadow: 0 0 3px var(--hover);
+    }
 }
 
 @media (max-width: 768px) {
