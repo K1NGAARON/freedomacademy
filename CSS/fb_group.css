@@ -158,6 +158,30 @@
     #first .row .col {
         width: 100%;
     }
+
+    #fb .large {
+        font-size: 40px;
+    }
+
+    #fb .small {
+        font-size: 20px;
+    }
+
+    .section .primary-btn {
+        font-size: 16px;
+    }
+
+    #usp .row h2 {
+        font-size: 26px;
+    }
+
+    #usp .row p:nth-of-type(1) {
+        font-size: 18px;
+    }
+
+    #usp .row li {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 1000px) {
