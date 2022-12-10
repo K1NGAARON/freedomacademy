@@ -1,58 +1,54 @@
-const reviewHolder = document.querySelector('#gallery');
-const reviews = [
-    {
-        img: './img/img-1.JPG',
-    },
-    {
-        img: './img/img-2.JPG',
-    },
-    {
-        img: './img/img-3.JPG',
-    },
-    {
-        img: './img/img-4.JPG',
-    },
-    {
-        img: './img/img-5.JPG',
-    },
-    {
-        img: './img/img-6.JPG',
-    },
-    {
-        img: './img/img-7.JPG',
-    },
-    {
-        img: './img/img-8.JPG',
-    },
-    {
-        img: './img/img-9.JPG',
-    },
-    {
-        img: './img/img-10.JPG',
-    },
-    {
-        img: './img/img-11.JPG',
-    },
-    {
-        img: './img/img-12.JPG',
-    },
-    {
-        img: './img/img-13.JPG',
-    }
-];
+const galleryWrapper = document.querySelector('#gallery');
+const reviews = []
 
+// Size of Reviews Folder (+1)
+const reviewsLength = 13;
+
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
+
+function createGalleryArray() {
+    for (let i = 1; i < reviewsLength; i++) {
+        let location = './img/img-' + i + '.JPG';
+        
+        let testimonialObject = {
+            'src' : location
+        };
+        
+        reviews.push(testimonialObject);
+    };
+    
+    shuffleArray(reviews);
+} 
 
 function createGallery() {
     for (let i = 0; i < reviews.length; i++) {
         const galleryIMG = `
-            <div class="item">
-                <img src="${reviews[i].img}" alt="Freedom Academy Review">
+            <div class="review">
+                <img src="${reviews[i].src}" alt="Freedom Academy Review">
             </div>
         `;
 
-        reviewHolder.insertAdjacentHTML("beforeend", galleryIMG);
+        galleryWrapper.insertAdjacentHTML("beforeend", galleryIMG);
     };
 };
 
 
-$(document).ready(createGallery);
+
+
+$(document).ready(function() {
+    createGalleryArray();
+    createGallery();
+
+    console.log($('#gallery').height())
+
+    const newHeight = ($('#gallery').height()) + 100;
+
+    // $('#gallery').height(newHeight);
+});
