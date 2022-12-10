@@ -30,7 +30,7 @@ function createGalleryArray() {
 function createGallery() {
     for (let i = 0; i < reviews.length; i++) {
         const galleryIMG = `
-            <div class="review">
+            <div class="item">
                 <img src="${reviews[i].src}" alt="Freedom Academy Review">
             </div>
         `;
@@ -39,16 +39,7 @@ function createGallery() {
     };
 };
 
-
-
-
 $(document).ready(function() {
     createGalleryArray();
     createGallery();
-
-    console.log($('#gallery').height())
-
-    const newHeight = ($('#gallery').height()) + 100;
-
-    // $('#gallery').height(newHeight);
 });
