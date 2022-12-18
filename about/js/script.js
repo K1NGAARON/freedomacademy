@@ -4,13 +4,13 @@ const team = [
         name: 'Arno Vanmassenhove',
         position: 'CEO & Founder',
         intro: 'Creates content, helps clients and leads the business.',
-        img : './img/aaron_gerard.jpg',
+        img : './img/arno.jpg',
     },
     {
         name: 'Marie Ameele',
         position: 'Community Manager',
         intro: 'Manages client communication, and organizes our live events.',
-        img: './img/aaron_gerard.jpg',
+        img: './img/marie.jpg',
     },
     {
         name: 'Aaron Gerard',
@@ -22,7 +22,7 @@ const team = [
         name: 'Tim Denhaerinck',
         position: 'Video Editor',
         intro: 'Creates engaging video content for social media platforms',
-        img: './img/aaron_gerard.jpg',
+        img: './img/tim.jpg',
     }
 ];
 
