@@ -25,6 +25,10 @@ html {
     line-height: 1.2;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 
 /* header */
 #header {
@@ -200,11 +204,11 @@ a:hover {
 }
 
 ul {
-    list-style: none;
+    /* list-style: none; */
 }
 
 ul li:before {
-    content: "✓";
+    /* content: "✓"; */
     color: var(--secondary);
     font-weight: 700;
     font-size: 20px;
