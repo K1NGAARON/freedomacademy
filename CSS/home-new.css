@@ -1,5 +1,6 @@
 #front {
     background: #545454;
+    height: 100vh;
 }
 
 #front h1 {
@@ -37,7 +38,7 @@
 }
 
 #front .wrapper .item h5  {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 26px;
     text-transform: uppercase;
     color: var(--black);

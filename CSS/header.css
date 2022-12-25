@@ -3,10 +3,10 @@
     max-width: 1200px;
     display: flex;
     flex-direction: row;
-    margin: 20px auto;
+    /* margin: 20px auto; */
     align-items: center;
     justify-content: center;
-    padding: 0 30px;
+    padding: 10px 30px;
 }
 
 #header .row .navigation {
@@ -22,7 +22,7 @@
 
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 #header .row .navigation .nav-item {
@@ -32,7 +32,7 @@
 }
 
 #header .row .navigation .nav-item.logo {
-    max-width: 250px;
+    max-width: 200px;
 }
 
 #header .row .navigation .nav-item img {
