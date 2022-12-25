@@ -10,6 +10,10 @@
     max-width: none;
 }
 
+.section h1 {
+    align-self: center;
+}
+
 .section h2 {
     font-size: 30px;
     text-transform: none;
@@ -21,6 +25,10 @@
 .section span,
 .section a {
     font-size: 18px;
+}
+
+.section .center {
+    text-align: center;
 }
 
 .section ol {
