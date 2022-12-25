@@ -4,6 +4,7 @@
 
 .section .row {
     align-items: flex-start;
+    max-width: 1100px;
 }
 
 .section .row p {
@@ -35,4 +36,17 @@
 
 .section .review {
     max-width: 800px;
+}
+
+#intro .center,
+#intro .center {
+    text-align: center;
+}
+
+#intro img.center {
+    margin: 20px auto 0 auto;
+}
+
+.section h2 {
+    font-size: 36px;
 }
