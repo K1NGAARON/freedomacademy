@@ -65,6 +65,14 @@
         flex: 1 0;
     }
 
+    #header .row .navigation .wrapper {
+        gap: 10px;
+    }
+
+    #header .row .navigation .wrapper a {
+        font-size: 16px;
+    }
+
     #header .row.small .wrapper img {
         margin: 0 auto;
     }
