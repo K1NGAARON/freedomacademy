@@ -66,11 +66,11 @@
     }
 
     #header .row .navigation .wrapper {
-        gap: 10px;
+        gap: 20px;
     }
 
     #header .row .navigation .wrapper a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     #header .row.small .wrapper img {
