@@ -1,9 +1,12 @@
+#header {
+    z-index: 99;
+}
+
 #header .row {
     width: 100%;
     max-width: 1200px;
     display: flex;
     flex-direction: row;
-    /* margin: 20px auto; */
     align-items: center;
     justify-content: center;
     padding: 10px 30px;
@@ -50,6 +53,9 @@
     width: 100%
 }
 
+.sticky + .section {
+    padding-top: 100px;
+}
   
 
 @media (max-width: 1000px) {
