@@ -10,4 +10,4 @@ function makeSticky() {
     }
 };
 
-// document.addEventListener('scroll', makeSticky);
+document.addEventListener('scroll', makeSticky);
