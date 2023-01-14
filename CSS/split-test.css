@@ -1,0 +1,52 @@
+#fb .col:nth-child(1) {
+    width: 60%;
+}
+
+#fb .col:nth-child(2) {
+    width: 40%;
+}
+
+#fb h1 {
+    max-width: none;
+    text-align: left;
+    font-size: 50px;
+}
+
+#fb .subheadline {
+    color: var(--white);
+    text-align: left;
+    font-size: 26px;
+}
+
+#fb .primary-btn {
+    font-size: 22px;
+    margin-left: 0;
+}
+
+@media (max-width: 540px) {
+    #fb .row {
+        padding: 0;
+    }
+
+    #fb .col:nth-child(1),
+    #fb .col:nth-child(2) {
+        width: 100%;
+    }
+
+    #fb h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    #fb .subheadline {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #fb .primary-btn {
+        margin-top: 20px;
+        font-size: 18px;
+        margin: 20px auto 0 auto;
+    }
+
+}
