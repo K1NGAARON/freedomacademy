@@ -85,6 +85,16 @@
     margin-top: 10px;
 }
 
+@media (max-width: 560px) {
+    #team {
+        gap: 40px;
+    }
+
+    #team .wrapper .item img {
+        max-width: 125px;
+    }
+}
+
 @media (max-width: 760px) {
     #team .wrapper {
         flex: 1 0 100%;
