@@ -50,3 +50,8 @@
 .section h2 {
     font-size: 36px;
 }
+
+.section .video-embed {
+    width: 100%;
+    margin: 20px auto;
+}
