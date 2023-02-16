@@ -17,6 +17,7 @@
 
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/privacy.css">
+    <link rel="stylesheet" href="/CSS/header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Google Tag Manager -->
@@ -34,41 +35,54 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-
 <header>
-    <div class="section" id="header">
+    <div class="section header" id="header">
         <div class="row">
-            <a href="index.html">
-                <img class="logo" src="./IMG/white_logo.png" alt="Freedomacademy Logo">
-            </a>
-            <div class="nav">
-                <a href="#cases">
-                    Case studies
+            <div class="navigation">
+                <div class="wrapper">
+                    <a href="https://freedomacademy.be" class="nav-item logo">
+                        <img src="/IMG/black-logo.png" alt="Freedom Academy logo">
+                    </a>
+                </div>
+                <div class="wrapper">
+                    <a href="http://youtube.com/itsarnovnm" target="_blank" class="nav-item">
+                        YouTube    
+                    </a>
+                    <a href="/newsletter/" class="nav-item">
+                        Newsletter
+                    </a>
+                    <a href="/about/" class="nav-item">
+                        About
+                    </a>
+                    <a href="https://learn.freedomacademy.be/library" target="_blank" class="nav-item">
+                        Login
+                    </a>
+                    <a href="" class="primary-btn">
+                        Ready to scale?
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="topnav-content-sm">
+            <div class="header-col">
+                <a href="/">
+                    <img class="logo" src="/IMG/black-logo.png" alt="Freedom Academy logo">
                 </a>
-                <a href="https://learn.freedomacademy.be/library" target="_blank">
-                    Login
-                </a>
-                <a class="primary-btn" href="apply.html">
-                    Book a call
+            </div>
+            <div class="header-col">
+                <a class="icon" id="menu-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
                 </a>
             </div>
         </div>
-    </div>
-    <div class="topnav-content-sm" id="small-nav">
-        <a href="index.html">
-            <img class="logo" src="./IMG/white_logo.png" alt="Freedomacademy Logo">
-        </a>
-
-        <a href="javascript:void(0);" class="icon" id="menu-toggle">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <div class="small-menu-wrapper">
-        <div class="small-menu-content">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="#cases">Case studies</a>
-            <a class="nav-link" href="https://learn.freedomacademy.be/library">Login</a>
-            <a class="nav-link" href="apply.html">Book A Call</a>
+        <div class="small-menu-wrapper">
+            <div class="small-menu-content">
+                <a href="/about/" class="nav">About</a>
+                <a href="/newsletter/" class="nav">Newsletter</a>
+                <a href="http://youtube.com/itsarnovnm" class="nav">YouTube</a>
+                <a href="https://learn.freedomacademy.be/library" class="nav">Login</a>
+                <a href="/apply.html" class="nav primary-btn">Ready to scale?</a>
+            </div>
         </div>
     </div>
 </header>

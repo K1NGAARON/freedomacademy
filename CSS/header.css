@@ -1,3 +1,22 @@
+#header.section {
+    background-color: var(--white);
+}
+
+#header.section .row a {
+    color: var(--black);
+}
+
+#header.section .row .primary-btn {
+    color: var(--white);
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.header .topnav-content-sm {
+    display: none;
+}
+
 #header {
     z-index: 99;
 }
@@ -25,7 +44,16 @@
 
     display: flex;
     justify-content: center;
-    gap: 40px;
+    align-items: center;
+    gap: 30px;
+}
+
+#header .row .navigation .wrapper:nth-child(1) {
+    justify-content: flex-start;
+}
+
+#header .row .navigation .wrapper:nth-child(2) {
+    flex: 2 0;
 }
 
 #header .row .navigation .nav-item {
@@ -57,8 +85,66 @@
     padding-top: 100px;
 }
   
-
 @media (max-width: 1000px) {
+    .header .row {
+        display: none;
+    }
+
+    .header .topnav-content-sm {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        width: 100%;
+    }
+
+    .header .topnav-content-sm .header-col {
+        flex: 1 0;
+    }
+
+    .header .topnav-content-sm .icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header .small-menu-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 30px;
+        background-color: var(--white);
+
+        box-shadow: var(--boxShadow);
+    }
+
+    .small-menu-wrapper {
+        width: 100%;
+    }
+
+    .small-menu-wrapper .small-menu-content a {
+        color: var(--black);
+        font-size: 16px;
+    }
+
+    .small-menu-wrapper .small-menu-content .primary-btn {
+        color: var(--white);
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .header .topnav-content-sm svg {
+        fill: var(--white);
+        background-color: var(--black);
+        width: 40px;
+        padding: 8px;
+        border-radius: 6px;
+    }
+
+    .header .topnav-content-sm svg:hover {
+        cursor: pointer;
+    }
+
     #header {
         display: flex;
     }
@@ -68,7 +154,7 @@
     }
 
     #header .row.small {
-        display: flex;
+        display: none;
     }
 
     #header .row .navigation {

@@ -1,5 +1,5 @@
 #front {
-    background: #545454;
+    background: var(--black);
     height: 100vh;
     justify-content: flex-start;
 }

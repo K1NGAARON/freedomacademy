@@ -1,5 +1,5 @@
-$('#small-nav > #menu-toggle').click(function() {
-    $('.small-menu-wrapper').toggle('active');
+$("#menu-toggle").click(function() {
+  $(".small-menu-wrapper").toggle("active");
 });
 
 let scrollBtn = document.getElementById("scrollTop");
