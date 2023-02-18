@@ -179,3 +179,13 @@
 h5 {
     font-weight: 600;
 }
+
+@media (max-width: 560px) {
+    .modal-content {
+        width: 90%;
+    }
+
+    .form-wrapper ._form-content {
+        width: 100%;
+    }
+}
