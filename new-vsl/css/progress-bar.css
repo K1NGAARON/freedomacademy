@@ -28,7 +28,7 @@
     width: 450px;
     margin: 0 auto 20px auto;
     border-radius: 5px;
-    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    box-shadow: 0 1px 0 var(--primary);
 }
 
 .stripes {
@@ -50,7 +50,7 @@
     border-radius: 3px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
     position: relative;
-    animation: auto-progress 3s linear;
+    animation: auto-progress 1s linear;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }

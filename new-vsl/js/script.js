@@ -1,12 +1,16 @@
 // Get the modal
-let modal = document.getElementById("myModal");
-let modalBtn = document.getElementById("popup");
-let span = document.getElementById("closeModal");
+const modal = document.getElementById("myModal");
+const modalBtn = document.getElementById("popup");
+const span = document.getElementById("closeModal");
+const image = document.querySelector('#image')
+
+function openModal(e) {
+    modal.style.display = "block";
+}
 
 // When the user clicks on the button, open the modal
-modalBtn.addEventListener('click', function() {
-    modal.style.display = "block";
-});
+modalBtn.addEventListener('click', openModal);
+image.addEventListener('click', openModal);
 
 span.addEventListener('click', function(e) {
     modal.style.display = "none";
