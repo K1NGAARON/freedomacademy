@@ -211,6 +211,8 @@ h5 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+    align-items: center;
 }
 
 .rocket i {
@@ -257,5 +259,9 @@ h5 {
 
     .primary-btn.flex {
         margin-top: 20px;
+    }
+
+    .section .rocket {
+        display: none;
     }
 }
