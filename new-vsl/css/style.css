@@ -192,4 +192,13 @@ h5 {
     .form-wrapper ._form-content {
         width: 100%;
     }
+
+    .banner.section .logo {
+        margin: 0 auto!important;
+        max-width: 150px!important;
+    }
+
+    .banner.section h1 {
+        font-size: 28px;
+    }
 }
