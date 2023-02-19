@@ -2,6 +2,23 @@
     max-width: 200px;
 }
 
+.banner.section ul {
+    margin-top: 20px;
+}
+
+.banner.section li {
+    color: var(--white);
+}
+
+.focus {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+#wistia_chrome_23 {
+    border-radius: 16px;
+}
+
 .banner.section {
     height: fit-content;
     background-image: url('/IMG/background.jpg');
