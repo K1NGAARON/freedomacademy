@@ -21,7 +21,7 @@
 
 .banner.section {
     height: fit-content;
-    background-image: url('/IMG/background.jpg');
+    background-image: url('../img/background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -201,12 +201,32 @@ h5 {
     font-weight: 600;
 }
 
+.subhl {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.rocket {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rocket i {
+    margin-right: 10px;
+}
+
 #image {
     margin: 20px 0;
 }
 
 #image:hover {
     cursor: pointer;
+}
+
+.banner.section .primary-color {
+    color: var(--primary);
 }
 
 @media (max-width: 560px) {
@@ -233,5 +253,9 @@ h5 {
 
     p.not-loading {
         margin: 20px 0;
+    }
+
+    .primary-btn.flex {
+        margin-top: 20px;
     }
 }
