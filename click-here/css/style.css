@@ -224,7 +224,7 @@ h5 {
 }
 
 #image {
-    margin: 20px 0;
+    margin: 20px 0!important;
 }
 
 #image:hover {
@@ -254,7 +254,7 @@ h5 {
     }
 
     .banner.section .callout p {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     p.not-loading {
@@ -262,7 +262,7 @@ h5 {
     }
 
     .primary-btn.flex {
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .section .rocket {
