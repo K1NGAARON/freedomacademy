@@ -283,4 +283,8 @@ h5 {
         margin-top: 0;
         width: 100%;
     }
+
+    .section .primary-btn {
+        font-size: 14px;
+    }
 }
