@@ -201,4 +201,8 @@ h5 {
     .banner.section h1 {
         font-size: 28px;
     }
+
+    .banner.section .callout p {
+        font-size: 14px;
+    }
 }
