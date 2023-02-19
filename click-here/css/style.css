@@ -6,6 +6,10 @@
     margin-top: 20px;
 }
 
+.banner.section .row {
+    margin: 20px auto;
+}
+
 .banner.section li {
     color: var(--white);
 }
