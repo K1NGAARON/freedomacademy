@@ -251,6 +251,7 @@ h5 {
 
     .banner.section h1 {
         font-size: 24px;
+        margin-top: 20px;
     }
 
     .banner.section .callout p {
@@ -267,5 +268,19 @@ h5 {
 
     .section .rocket {
         display: none;
+    }
+
+    .hide-sm {
+        display: none;
+    }
+
+    .small-sm {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .banner.section .video-wrapper {
+        margin-top: 0;
+        width: 100%;
     }
 }
