@@ -201,6 +201,13 @@
     margin-top: 5px;
 }
 
+.usp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 75%;
+}
+
 h5 {
     font-weight: 600;
 }
