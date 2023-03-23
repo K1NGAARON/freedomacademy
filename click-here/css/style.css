@@ -6,6 +6,31 @@
     margin-top: 20px;
 }
 
+.wrapper.reviews {
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+}
+
+.wrapper.reviews .item {
+    flex: 1 0 40%;
+}
+
+.wrapper.reviews .item img {
+    width: 100%;
+}
+
+.above-video {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--primary);
+    padding: 10px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .banner.section .row {
     margin: 20px auto;
 }
@@ -20,7 +45,8 @@
 }
 
 #wistia_chrome_23 {
-    border-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 
 .banner.section {
