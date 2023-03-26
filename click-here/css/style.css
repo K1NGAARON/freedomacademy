@@ -31,6 +31,14 @@
     font-weight: 700;
 }
 
+.capitalize {
+    text-transform: capitalize;
+}
+
+.center {
+    text-align: center;
+}
+
 .banner.section .row {
     margin: 20px auto;
 }
