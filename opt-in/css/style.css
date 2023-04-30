@@ -6,6 +6,11 @@
     padding-left: 15px;
 }
 
+.main .below-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .section .row .wrapper {
     display: flex;
     flex-flow: row wrap;
