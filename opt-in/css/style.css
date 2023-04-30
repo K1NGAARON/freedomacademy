@@ -206,6 +206,14 @@
     height: auto;
 }
 
+.section #cta-btn {
+    margin-top: 20px;
+}
+
+.section ul {
+    font-size: 14px;
+}
+
 @media (max-width: 560px) {
     .main.section .row .wrapper {
         gap: 20px;
