@@ -14,6 +14,17 @@
     margin-top: 60px;
 }
 
+.section.main .subtext {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 560px) {
+    .section.main .subtext {
+        font-size: 16px;
+    }
+}
+
 .section .row .wrapper .item {
     flex: 1 0;
     display: flex;
@@ -123,7 +134,6 @@
 }
 
 .form-wrapper {
-    margin-top: 20px;
     width: 100%;
 }
 
