@@ -2,6 +2,10 @@
     margin: 20px auto;
 }
 
+.main ul {
+    padding-left: 15px;
+}
+
 .section .row .wrapper {
     display: flex;
     flex-flow: row wrap;
