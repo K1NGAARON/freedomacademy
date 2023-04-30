@@ -189,6 +189,18 @@
     width: 100%;
 }
 
+.section .left {
+    text-align: left;
+}
+
+.video.section .row .wrapper {
+    gap: 20px;
+}
+
+.video.section .row .wrapper .item {
+    flex: 1 0 25%;
+}
+
 @media (max-width: 560px) {
     .section .row .wrapper {
         flex-flow: column;
