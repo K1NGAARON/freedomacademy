@@ -201,6 +201,11 @@
     flex: 1 0 25%;
 }
 
+.section .video-wrapper iframe {
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 560px) {
     .main.section .row .wrapper {
         gap: 20px;
