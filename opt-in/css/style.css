@@ -210,6 +210,20 @@
     margin-top: 20px;
 }
 
+.main.section .italic {
+    font-style: italic;
+}
+
+.main.section .row .wrapper .item .primary-btn {
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+}
+
+.section p {
+    font-size: 14px;
+}
+
 .section ul {
     font-size: 14px;
 }
