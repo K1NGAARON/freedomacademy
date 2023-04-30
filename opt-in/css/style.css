@@ -185,6 +185,10 @@
     display: none;
 }
 
+.section .video-wrapper {
+    width: 100%;
+}
+
 @media (max-width: 560px) {
     .section .row .wrapper {
         flex-flow: column;
