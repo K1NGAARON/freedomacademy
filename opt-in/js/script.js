@@ -1,7 +1,7 @@
 // Get the modal
 const modal = document.getElementById("myModal");
 const modalBtn = document.getElementById("cta-btn");
-// const secondBtn = document.getElementById("secondBtn");
+const secondBtn = document.getElementById("cta-btn-sm");
 const span = document.getElementById("closeModal");
 // const image = document.querySelector('#image')
 
@@ -16,7 +16,7 @@ function openModal(e) {
 // When the user clicks on the button, open the modal
 modalBtn.addEventListener('click', openModal);
 // image.addEventListener('click', openModal);
-// secondBtn.addEventListener('click', openModal);
+secondBtn.addEventListener('click', openModal);
 
 span.addEventListener('click', function(e) {
     modal.style.display = "none";

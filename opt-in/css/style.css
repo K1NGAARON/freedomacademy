@@ -181,8 +181,24 @@
     margin-top: 5px;
 }
 
+.primary-btn.small-btn {
+    display: none;
+}
+
 @media (max-width: 560px) {
     .section .row .wrapper {
         flex-flow: column;
+    }
+
+    .primary-btn.small-btn {
+        display: flex;
+    }
+
+    .section .modal-content {
+        width: 100%;
+    }
+
+    .section .modal {
+        padding: 0 30px;
     }
 }
