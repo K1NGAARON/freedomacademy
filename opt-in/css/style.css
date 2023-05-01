@@ -9,6 +9,7 @@
 .main .below-title {
     font-weight: bold;
     font-size: 18px;
+    color: #545454;
 }
 
 .section .row .wrapper {
@@ -22,6 +23,10 @@
 .section.main .subtext {
     font-size: 20px;
     font-weight: bold;
+}
+
+#cta-img:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 560px) {
@@ -234,7 +239,7 @@
 }
 
 .main.section .row .wrapper .item .primary-btn {
-    width: 100%;
+    width: 70%;
     padding: 20px;
     justify-content: center;
 }
@@ -256,6 +261,7 @@
     .main.section .row .wrapper .item .primary-btn {
         margin: 0 auto;
         font-size: 18px;
+        width: 100%;
     }
 
     .main #cta-img {
